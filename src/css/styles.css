@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/*************
+    Layout 
+ ************/
+
+ /* Header */
+
+header {
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.globe-icon {
+    height: 37px;
+    width: 37px;
+    margin-right: 0.5em;
+    color: #FFFFFF;
+}
+
+.header--title {
+    font-size: inherit;
+}
+
+/* Section */
+
+.container {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    min-width: 450px;
+    color: #2B283A;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.entry--img {
+    /* width: 25%; */
+    min-width: 160px;
+    margin-right: 1.8em;
+    border-radius: 5px;
+}
+
+.entry--body {
+    padding: 1em 0;
+}
+
+.entry--location-info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.625rem;
+}
+
+.map-icon {
+    height: 20px;
+    width: 20px;
+    color: #F55A5A;
+}
+
+.location {
+    font-weight: 400;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.google-maps {
+    text-decoration: underline;
+    color: #918E9B;
+    cursor: pointer;
+}
+
+.entry--title {
+    margin: 0 0 1em 0;
+    font-weight: 700;
+    font-size: 1.56rem;
+}
+
+.entry--date {
+    font-weight: 700;
+    font-size: 0.625rem;
+}
+
+.entry--description {
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 150%;
+}
