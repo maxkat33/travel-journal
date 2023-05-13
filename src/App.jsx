@@ -8,7 +8,6 @@ import Entry from './components/Entry/Entry'
 import data from './data.js'
 
 const App = () => {
-  console.log("first")
   const entries = data.map((entry)=> {
     return (
       <Entry 
@@ -20,7 +19,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div className='container'>
+      <div className='hero'>
         {entries}
       </div>
     </div>
